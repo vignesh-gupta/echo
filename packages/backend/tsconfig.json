@@ -1,0 +1,11 @@
+{
+  "extends": "@echo/typescript-config/react-library.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@echo/backend/*": ["./convex/*"]
+    }
+  },
+  "include": ["."],
+  "exclude": ["node_modules"]
+}

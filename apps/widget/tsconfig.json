@@ -4,7 +4,8 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"],
-      "@echo/ui/*": ["../../packages/ui/src/*"]
+      "@echo/ui/*": ["../../packages/ui/src/*"],
+      "@echo/backend/*": ["../../packages/backend/convex/*"]
     },
     "plugins": [
       {

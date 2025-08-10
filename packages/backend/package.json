@@ -1,0 +1,21 @@
+{
+  "name": "@echo/backend",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "convex dev",
+    "setup": "convex dev --until-success"
+  },
+  "exports": {
+    "./convex": "./convex/**/*.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "convex": "^1.25.4"
+  },
+  "devDependencies": {
+    "@echo/typescript-config": "workspace:*",
+    "typescript": "5.8.3"
+  }
+}
