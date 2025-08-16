@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/node": "^20",
     "convex": "^1.25.4"
   },
   "devDependencies": {

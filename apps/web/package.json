@@ -12,8 +12,9 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@echo/ui": "workspace:*",
+    "@clerk/nextjs": "^6.31.1",
     "@echo/backend": "workspace:*",
+    "@echo/ui": "workspace:*",
     "convex": "^1.25.4",
     "lucide-react": "^0.475.0",
     "next": "^15.2.3",
@@ -22,11 +23,11 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@echo/eslint-config": "workspace:^",
+    "@echo/typescript-config": "workspace:*",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@echo/eslint-config": "workspace:^",
-    "@echo/typescript-config": "workspace:*",
     "typescript": "^5.7.3"
   }
 }
