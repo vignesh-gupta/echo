@@ -1,0 +1,9 @@
+{
+	"servers": {
+		"sentry-mcp": {
+			"url": "https://mcp.sentry.dev/mcp/vigneshfixes/echo-ai-support",
+			"type": "http"
+		}
+	},
+	"inputs": []
+}
